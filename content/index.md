@@ -1,5 +1,5 @@
 ---
-title: Welcome to Ghanem's Engineering Insights
+title: Welcome to Ghanem's Blog
 tags:
   - about
 draft: false
