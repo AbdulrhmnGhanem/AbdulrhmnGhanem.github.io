@@ -16,7 +16,7 @@ Being a big fan of open-source software I try to contribute to the community as 
 - [[control]]
 - [[education]]
 - [[readings]]
-- [[software-design]]
+- [[Software design]]
 
 ## Publications
 
