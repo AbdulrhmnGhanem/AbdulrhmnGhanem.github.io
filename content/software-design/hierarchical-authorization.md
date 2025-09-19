@@ -258,24 +258,24 @@ def get_permissions_for_role(role: Role) -> Permission:
     The following diagram illustrates the permission lookup order; think of it
     like MRO rather than inheritance.
 
-                    ┌──────────────┐                        
-                    │ DRAGON LORD  │                        
-                    └──────▲───────┘                        
-                           │                                
-                    ┌──────┴───────┐                        
-                    │     KING     │                        
-                    └──────▲───────┘                        
-                           │                                
-                           │                                
-       ┌────────┐   ┌──────┴───────┐   ┌──────────┐         
-       │ ARCHER │   │ GUILD MASTER │   │  WIZARD  │         
-       └───▲────┘   └──────▲───────┘   └────▲─────┘         
-           │               │                │               
-           └───────────────┼────────────────┘               
-                    ┌──────┼───────┐                        
-                    │     HERO     │                        
-                    └──────────────┘                        
-                                                            
+                    ┌──────────────┐
+                    │ DRAGON LORD  │
+                    └──────▲───────┘
+                           │
+                    ┌──────┴───────┐
+                    │     KING     │
+                    └──────▲───────┘
+                           │
+                           │
+       ┌────────┐   ┌──────┴───────┐   ┌──────────┐
+       │ ARCHER │   │ GUILD MASTER │   │  WIZARD  │
+       └───▲────┘   └──────▲───────┘   └────▲─────┘
+           │               │                │
+           └───────────────┼────────────────┘
+                    ┌──────┼───────┐
+                    │     HERO     │
+                    └──────────────┘
+
     """
     match role:
         case Role.HERO:
@@ -415,8 +415,8 @@ So sets are about 5–6x faster than `Flag`, and `IntFlag` is slightly slower th
 
 Here are results using different flag boundaries, where each `F-*` represents `class Permission(Flag, boundary=*)`:
 
-|     | Set  | F-Strict | F-Conform | F-Eject | F-Keep | IntFlag | Bitmask |
-| --- | ---- | -------- | --------- | ------- | ------ | ------- | ------- |
-| ∈   | 0.051| 0.292    | 0.289     | 0.286   | 0.282  | 0.347   | 0.012   |
-| ~   | 0.050| 0.310    | 0.304     | 0.306   | 0.310  | 0.333   | 0.012   |
-| \|  |0.0320| 0.268    | 0.271     | 0.267   | 0.265  | 0.328   | 0.011   |
+|     | Set    | F-Strict | F-Conform | F-Eject | F-Keep | IntFlag | Bitmask |
+| --- | ------ | -------- | --------- | ------- | ------ | ------- | ------- |
+| ∈   | 0.051  | 0.292    | 0.289     | 0.286   | 0.282  | 0.347   | 0.012   |
+| ~   | 0.050  | 0.310    | 0.304     | 0.306   | 0.310  | 0.333   | 0.012   |
+| \|  | 0.0320 | 0.268    | 0.271     | 0.267   | 0.265  | 0.328   | 0.011   |
