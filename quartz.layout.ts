@@ -26,6 +26,7 @@ export const sharedPageComponents: SharedLayout = {
       Scholar: "https://scholar.google.com/citations?user=gWMRvXoAAAAJ&hl=en",
       LinkedIn: "https://www.linkedin.com/in/AbdulrhmnGhanem",
       X: "https://x.com/AbdulrhmnGhanem",
+      RSS: "/index.xml",
     },
   }),
 }
