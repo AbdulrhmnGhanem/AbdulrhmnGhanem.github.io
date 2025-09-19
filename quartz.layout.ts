@@ -8,14 +8,14 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.Comments({
-      provider: 'giscus',
+      provider: "giscus",
       options: {
-        repo: 'AbdulrhmnGhanem/AbdulrhmnGhanem.github.io',
-        repoId: 'R_kgDOLDBoMQ',
-        category: 'Q&A',
-        categoryId: 'DIC_kwDOLDBoMc4Cvn0u',
-        lang: 'en'
-      }
+        repo: "AbdulrhmnGhanem/AbdulrhmnGhanem.github.io",
+        repoId: "R_kgDOLDBoMQ",
+        category: "Q&A",
+        categoryId: "DIC_kwDOLDBoMc4Cvn0u",
+        lang: "en",
+      },
     }),
   ],
   footer: Component.Footer({

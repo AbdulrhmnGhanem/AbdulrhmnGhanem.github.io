@@ -3,5 +3,5 @@
 ## development
 
 ```bash
-npx quartz build --serve 
+npx quartz build --serve
 ```

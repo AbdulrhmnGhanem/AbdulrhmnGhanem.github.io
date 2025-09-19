@@ -171,14 +171,8 @@ export const customBlogImage: SocialImageOptions["imageStructure"] = ({
                             fontFamily: bodyFont,
                         }}
                     >
-                        {date && (
-                            <div style={{ display: "flex", alignItems: "center" }}>
-                                📅 {date}
-                            </div>
-                        )}
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                            ⏱️ {readingTimeText}
-                        </div>
+                        {date && <div style={{ display: "flex", alignItems: "center" }}>📅 {date}</div>}
+                        <div style={{ display: "flex", alignItems: "center" }}>⏱️ {readingTimeText}</div>
                     </div>
 
                     {/* Right side - Tags */}
