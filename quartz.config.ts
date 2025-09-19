@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       host: "https://us.i.posthog.com",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "blog.abdulrhmnghanem.tech/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
