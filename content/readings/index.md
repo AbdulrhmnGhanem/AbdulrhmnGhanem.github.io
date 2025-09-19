@@ -1,6 +1,7 @@
 ---
 title: Readings
 draft: false
+comments: false
 ---
 
 ## Books I liked

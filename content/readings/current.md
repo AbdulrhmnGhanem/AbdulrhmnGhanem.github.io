@@ -1,6 +1,7 @@
 ---
 title: On My Reading List
 draft: false
+comments: false
 ---
 
 - [The Architecture of Open Source Applications](https://aosabook.org/en/) edited by Amy Brown and Greg Wilson.

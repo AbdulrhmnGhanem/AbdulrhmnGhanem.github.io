@@ -4,6 +4,7 @@ tags:
   - about
 draft: false
 date: Jan 7, 2024
+comments: false
 ---
 
 I am Abdulrahman Ghanem, a multidisciplinary engineer. Currently, pursuing an M.Eng. in Computer Engineering (modeling and simulation concentration) at Minia university. I am interested in control systems, ML, automation, and software engineering. I am proficient at many programming languages but during my degree, I have been using Julia exclusively for the college stuff.
