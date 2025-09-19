@@ -2,6 +2,7 @@
 title: Hierarchical Authorization with Flags
 draft: false
 date: 18 Sep 2025
+description: Implementing hierarchical role-based access control (RBAC) using Python's enum.Flag for compact and efficient permission management.
 tags:
   - software-design
   - RBAC
