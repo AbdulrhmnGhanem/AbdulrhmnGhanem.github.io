@@ -4,9 +4,14 @@ draft: false
 comments: false
 ---
 
+## 26
+
 - [The Architecture of Open Source Applications](https://aosabook.org/en/) edited by Amy Brown and Greg Wilson.
 - [Engineering Design Optimization](https://www.goodreads.com/book/show/58398556-engineering-design-optimization) by Joaquim R.R.A. Martins and Andrew Ning.
 - [Material World](https://www.goodreads.com/book/show/125937631-material-world) by Ed Conway, and Edmund Conway.
+
+## 25
+
 - ~~[The Palestine Laboratory](https://www.goodreads.com/book/show/62790909-the-palestine-laboratory) by Antony Loewenstein~~
 - ~~[People Skills: How to Assert Yourself, Listen to Others, and Resolve Conflicts](https://www.goodreads.com/book/show/65327.People_Skills) by Robert Bolton.~~
 - ~~[The Unwritten Laws of Engineering](https://www.goodreads.com/book/show/18894457-the-unwritten-laws-of-engineering) by W.J. King and James G. Skakoon.~~
