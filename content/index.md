@@ -13,9 +13,9 @@ Being a big fan of open-source software I try to contribute to the community as 
 
 ## Topics shortlist
 
-- [[control]]
-- [[education]]
-- [[readings]]
+- [[Control]]
+- [[Education]]
+- [[Readings]]
 - [[Software design]]
 
 ## Publications

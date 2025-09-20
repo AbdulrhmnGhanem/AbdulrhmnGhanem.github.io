@@ -7,6 +7,8 @@ tags:
   - software-design
   - RBAC
   - Python
+alias:
+  - software-design/hierarchical-authorization
 ---
 
 Imagine you're building a web service for a simple RPG game. A user can have one of the following roles:

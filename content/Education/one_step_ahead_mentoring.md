@@ -23,7 +23,7 @@ where there is actually no one to ask. But what if I was guided better? I don't 
 I saw I could make many things easier for them. I took the initiative to mentor them. I am not a master, I am just a tiny bit ($\epsilon$) ahead of them.
 But that $\epsilon$ is enough to make a difference. Actually, from [MPC](https://en.wikipedia.org/wiki/Model_predictive_control) perspective, I don't need to know the entire trajectory to guide them. I just need to know the next step.
 
-A year after graduating I read [[books/The Idea Factory]], I fall in love with Bell Labs. I tried to replicate their operations in #El-Garash.
+A year after graduating I read [[Readings/The Idea Factory]], I fall in love with Bell Labs. I tried to replicate their operations in #El-Garash.
 Little did I notice that I am not backed by AT&T. During my supervision of [Al Ajwad team](https://github.com/ElGarash/Al-Ajwad/)
 I made the team work in the LAB fashion; fast-lean experiments, ready-shoot-aim (ansatz) style of work, write report for every experiment,
 get the reports signed off by other peers.
