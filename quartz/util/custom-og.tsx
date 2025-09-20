@@ -1,8 +1,8 @@
-import { SocialImageOptions } from "./og"
-import { formatDate, getDate } from "../components/Date"
-import readingTime from "reading-time"
-import { i18n } from "../i18n"
-import { getFontSpecificationName } from "./theme"
+import { SocialImageOptions } from "./og";
+import { formatDate, getDate } from "../components/Date";
+import readingTime from "reading-time";
+import { i18n } from "../i18n";
+import { getFontSpecificationName } from "./theme";
 
 export const customBlogImage: SocialImageOptions["imageStructure"] = ({
   cfg,
@@ -12,24 +12,24 @@ export const customBlogImage: SocialImageOptions["imageStructure"] = ({
   fileData,
   iconBase64,
 }) => {
-  const { colorScheme } = userOpts
-  const fontBreakPoint = 28
-  const useSmallerFont = title.length > fontBreakPoint
+  const { colorScheme } = userOpts;
+  const fontBreakPoint = 28;
+  const useSmallerFont = title.length > fontBreakPoint;
 
   // Format date if available
-  const rawDate = getDate(cfg, fileData)
-  const date = rawDate ? formatDate(rawDate, cfg.locale) : null
+  const rawDate = getDate(cfg, fileData);
+  const date = rawDate ? formatDate(rawDate, cfg.locale) : null;
 
   // Calculate reading time
-  const { minutes } = readingTime(fileData.text ?? "")
+  const { minutes } = readingTime(fileData.text ?? "");
   const readingTimeText = i18n(cfg.locale).components.contentMeta.readingTime({
     minutes: Math.ceil(minutes),
-  })
+  });
 
   // Get tags if available
-  const tags = fileData.frontmatter?.tags ?? []
-  const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
-  const headerFont = getFontSpecificationName(cfg.theme.typography.header)
+  const tags = fileData.frontmatter?.tags ?? [];
+  const bodyFont = getFontSpecificationName(cfg.theme.typography.body);
+  const headerFont = getFontSpecificationName(cfg.theme.typography.header);
 
   return (
     <div
@@ -171,8 +171,14 @@ export const customBlogImage: SocialImageOptions["imageStructure"] = ({
               fontFamily: bodyFont,
             }}
           >
-            {date && <div style={{ display: "flex", alignItems: "center" }}>📅 {date}</div>}
-            <div style={{ display: "flex", alignItems: "center" }}>⏱️ {readingTimeText}</div>
+            {date && (
+              <div style={{ display: "flex", alignItems: "center" }}>
+                📅 {date}
+              </div>
+            )}
+            <div style={{ display: "flex", alignItems: "center" }}>
+              ⏱️ {readingTimeText}
+            </div>
           </div>
 
           {/* Right side - Tags */}
@@ -238,5 +244,5 @@ export const customBlogImage: SocialImageOptions["imageStructure"] = ({
         }}
       />
     </div>
-  )
-}
+  );
+};

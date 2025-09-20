@@ -1,4 +1,4 @@
-import { Translation } from "./definition"
+import { Translation } from "./definition";
 
 export default {
   propertyDefaults: {
@@ -73,7 +73,9 @@ export default {
     folderContent: {
       folder: "Thư Mục",
       itemsUnderFolder: ({ count }) =>
-        count === 1 ? "1 mục trong thư mục này." : `${count} mục trong thư mục này.`,
+        count === 1
+          ? "1 mục trong thư mục này."
+          : `${count} mục trong thư mục này.`,
     },
     tagContent: {
       tag: "Thẻ",
@@ -84,4 +86,4 @@ export default {
       totalTags: ({ count }) => `Tìm thấy ${count} thẻ tổng cộng.`,
     },
   },
-} as const satisfies Translation
+} as const satisfies Translation;

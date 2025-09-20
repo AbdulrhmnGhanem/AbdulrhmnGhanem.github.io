@@ -1,6 +1,6 @@
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
-import { customBlogImage } from "./quartz/util/custom-og"
+import { QuartzConfig } from "./quartz/cfg";
+import * as Plugin from "./quartz/plugins";
+import { customBlogImage } from "./quartz/util/custom-og";
 
 /**
  * Quartz 4 Configuration
@@ -100,6 +100,6 @@ const config: QuartzConfig = {
       }),
     ],
   },
-}
+};
 
-export default config
+export default config;
