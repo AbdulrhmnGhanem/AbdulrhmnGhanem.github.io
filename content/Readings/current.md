@@ -8,7 +8,9 @@ comments: false
 
 - [The Architecture of Open Source Applications](https://aosabook.org/en/) edited by Amy Brown and Greg Wilson.
 - [Engineering Design Optimization](https://www.goodreads.com/book/show/58398556-engineering-design-optimization) by Joaquim R.R.A. Martins and Andrew Ning.
-- [Material World](https://www.goodreads.com/book/show/125937631-material-world) by Ed Conway, and Edmund Conway.
+- ~~[Material World](https://www.goodreads.com/book/show/125937631-material-world) by Ed Conway, and Edmund Conway.~~
+- ~~[Kaput: The End of the German Miracle](https://www.goodreads.com/book/show/214631090-kaput) by Wolfgang Münchau.~~
+- ~~[Managing Humans: Biting and Humorous Tales of a Software Engineering Manager](https://www.goodreads.com/book/show/1317946.Managing_Humans) by Michael Lopp.~~
 
 ## 25
 
